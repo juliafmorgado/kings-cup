@@ -24,9 +24,9 @@ function drawTwo() {
     let player1Val = convertVal(data.cards[0].value)
     let player2Val = convertVal(data.cards[1].value)
     if(player1Val > player2Val){
-      document.querySelector('h3').innerText = ' Player 1 wins'
+      document.querySelector('h3').innerText = ' You win'
     }else if(player1Val < player2Val){
-      document.querySelector('h3').innerText = ' Player 2 wins'
+      document.querySelector('h3').innerText = ' Computer wins'
     }else{
       document.querySelector('h3').innerText = 'No one wins. Time for WAR'
     }
