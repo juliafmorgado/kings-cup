@@ -5,6 +5,7 @@
 /* Box Model Hack */
 * {
     box-sizing: border-box;
+    text-align: center;
   }
   
   /******************************************
@@ -12,10 +13,16 @@
   /*******************************************/
   img {
     display: block;
-    margin: 0 auto;
+
     max-width: 200px;
   }
   
+  button{
+    display: block;
+  }
+  section{
+    display: inline-block;
+  }
   
   /******************************************
   /* ADDITIONAL STYLES

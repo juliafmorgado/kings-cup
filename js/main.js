@@ -51,6 +51,3 @@ function convertVal (val){
     return Number(val)
   }
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
