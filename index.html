@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="description" content="This is where your description goes">
-	<meta name="keywords" content="one, two, three">
+		<title>King's Cup</title>
 
-	<title>War Card Game</title>
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" 		crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&		family=Roboto&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Who's Ready for King's Cup?</h1>
 
-	<!-- external CSS link -->
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+		<div class="content">
+			<h3></h3>
 
-<body>
+			<p id='theRules'>You'll need at least 2 players, each with a drink of their choice. Put a large cup in the middle of the group and decide who goes first. Click "Draw a card" and follow the instructions. The game ends when the fourth and final King in the deck is drawn.</p>
 
-	<h1>War Card Game</h1>
+			<div class="cardContainer">
+				<img id="yourCard" src="" alt="">
+			</div>
 
-	<div class="center"><button>Deal two cards!</button></div>
-	
+			<div class="buttonContainer">
+				<button id="drawCard">Draw a card</button>
+			</div>
 
-	<section>
-		<h2>You</h2>
-		<img id="player1" src="" alt="">
-	</section>
+			<h2></h2>
 
-	<section>	
-		<h2>Computer</h2>
-		<img id="player2" src="" alt="">
-	</section>
+			<div class ="blurb">
+				<p id="cardRules"></p>
+			</div>
 
-	<h3>Result</h3>
+			<script type="text/javascript" src="js/main.js"></script>
+		</div>
+	</body>
 
-	<section class="rules">
-		<h3>Players</h3>
-		<p>Just 1, the computer is the second player.</p>
-		<h3>Goal</h3>
-		<p>The goal is to be the first player to win all 52 cards</p>
-		<h3>Rules</h3>
-		<p>The computer suffles and randomly assign two cards at each round. The player with the higher card wins that round.
+	<footer>
+		<span>
+			Built by <a href="https://juliafmorgado.netlify.app/">Alex Johrden</a>
+		</span>
 
-			If the cards are the same rank, it is War. Each player turns up one card face down and one card face up. The player with the higher cards takes both piles (six cards). If the turned-up cards are again the same rank, each player places another card face down and turns another card face up. The player with the higher card takes all 10 cards, and so on.</p>
-		<h3>Card Values</h3>
-		<p>J = 11, Q = 12, K = 13 and A = 14</p>
-	</section>
+		<span>
+			Made with <a href="https://deckofcardsapi.com/">Deck of Cards API</a>
+		</span>
 
-	<script type="text/javascript" src="js/main.js"></script>
-</body>
+		<span>
+			If you choose to drink alcohol, please drink responsibly.
+		</span>
 
+	</footer>
 </html>
