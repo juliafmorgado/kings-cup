@@ -18,6 +18,8 @@
 /*******************************************/
 header{
   background-image: url('assets/hero.png');
+  border: 2px solid red;
+  height: 50vh;
 }
 
 h1{
