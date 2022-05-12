@@ -17,9 +17,10 @@
 /* ADDITIONAL STYLES
 /*******************************************/
 header{
-  background-image: url('assets/hero.png');
-  border: 2px solid red;
-  height: 50vh;
+  background-image: url('../assets/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
 }
 
 h1{
@@ -47,7 +48,7 @@ div{
   justify-content: center;
 }
 
-.buttonContainer{
+.buttonContainer, .playContainer{
   text-align: center;
   margin-top: 1rem;
 }
