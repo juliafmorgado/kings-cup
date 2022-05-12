@@ -1,4 +1,4 @@
-<h1 align='center'> War Card Game | <a href='https://juliafmorgado.github.io/war-game/'>Visit here!</a></h1>
+<h1 align='center'> King's Cup | <a href='https://juliafmorgado.github.io/war-game/'>Visit here!</a></h1>
 
 <img src='https://github.com/juliafmorgado/kings-cup/blob/main/assets/kings-cup.gif' width='100%'>
 
