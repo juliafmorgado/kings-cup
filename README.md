@@ -1,13 +1,13 @@
 <h1 align='center'> War Card Game | <a href='https://juliafmorgado.github.io/war-game/'>Visit here!</a></h1>
 
-<img src='https://github.com/juliafmorgado/war-game/blob/main/war-game.gif' width='100%'>
+<img src='https://github.com/juliafmorgado/kings-cup/blob/main/assets/kings-cup.gif' width='100%'>
 
-<h3 align='center'>War Game against the computer</h3>
+<h3 align='center'>The Ultimate King's Cup</h3>
 
 <br>
 
 <h2>How It's Made</h2>
-<p>We used the <a href='https://deckofcardsapi.com/'>API</a> to suffle the cards and get two random cards at each round.</p>
+<p>Game to play with friends using an<a href='https://deckofcardsapi.com/'>API</a> to suffle the cards and get a random card at each round. Once all kings are drawn the game ends.</p>
 
 <br>
   
@@ -22,4 +22,4 @@
 
 <h2>Optimizations</h2>
 
-Add the number of remaining cards, a score board and implement the WAR step.
+Improve CSS of the game page.
