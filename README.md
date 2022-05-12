@@ -7,7 +7,7 @@
 <br>
 
 <h2>How It's Made</h2>
-<p>Game to play with friends using an<a href='https://deckofcardsapi.com/'>API</a> to suffle the cards and get a random card at each round. Once all kings are drawn the game ends.</p>
+<p>Game to play with friends using an <a href='https://deckofcardsapi.com/'>API</a> to suffle the cards and get a random card at each round. Once all kings are drawn the game ends.</p>
 
 <br>
   
