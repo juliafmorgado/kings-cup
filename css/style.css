@@ -16,17 +16,20 @@
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-header{
+.mainContainer{
   background-image: url('../assets/hero.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 120vh;
+  padding-top: 50vh;
 }
 
 h1{
   font-family: 'Pacifico', cursive;
   width: 100%;
   text-align: center;
+  font-size: 5rem;
+  color: #FDC433;
 }
 
 h2{
@@ -53,11 +56,28 @@ div{
   margin-top: 1rem;
 }
 
+.playContainer > a{
+  color: black;
+  background-color: #FDC433;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.playContainer > a:hover{
+  background-color: black;
+  color: #FDC433;
+}
+
 #drawCard{
-  background-color: lightgrey;
-  border: 2px solid lightgrey;
+  background-color: #FDC433;
+  border: 2px solid #FDC433;
   border-radius: .2em;
   font-family: 'Roboto', sans-serif;
+  padding: 0.5rem 1rem;
 }
 
 #drawCard:hover{
@@ -83,13 +103,18 @@ footer{
   display: flex;
   justify-content: center;
   margin: 2rem 0;
+  padding-top: 150px;
+
 }
 
 footer span{
   font-family: 'Roboto', sans-serif;
   font-size: 11px;
-  text-decoration: lightslategray;
   margin: 0 1rem;
+}
+
+footer span > a{
+  color: #FDC433;
 }
 
 html, body {
