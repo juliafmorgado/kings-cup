@@ -10,10 +10,10 @@
 <h2>What was learned</h2>
 
 <ul>
- <li>Defining API operations in terms of HTTP methods</li>
-  <li>Using EJS as a template engine</li>
-  <li>Automatically restarting the app with Nodemon</li>
-  <li>Maintaining good security practices by loading environment variables from an .env file</li>
+ <li>Fetch data from an API</li>
+ <li>Creating dynamic URL with template literal notation</li>
+  <li>Using promises</li>
+ 
  
 </ul>
 
